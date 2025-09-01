@@ -1,0 +1,130 @@
+
+> impact-grant-solutions@0.1.0 start
+> next start
+
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3000
+   - Network:      http://10.81.44.90:3000
+
+ ✓ Starting...
+ ✓ Ready in 927ms
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error fetching user responses: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error fetching user responses: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error fetching chat messages: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error fetching presence: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error updating presence: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error fetching chat messages: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+Error fetching presence: Error: MongoDB connection timeout
+    at Timeout._onTimeout (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11610)
+MongoDB connection error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at async h (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11513)
+    at async x (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\presence\route.js:1:1170)
+    at async k (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\presence\route.js:1:5779) {
+  errorLabelSet: Set(0) {},
+  reason: [TopologyDescription],
+  code: undefined,
+  [cause]: [TopologyDescription]
+}
+Error updating presence: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at async h (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\user-responses\route.js:1:11513)
+    at async x (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\presence\route.js:1:1170)
+    at async k (C:\Users\Abpri\OneDrive\Documents\gRANT\.next\server\app\api\chat\presence\route.js:1:5779) {
+  errorLabelSet: Set(0) {},
+  reason: [TopologyDescription],
+  code: undefined,
+  [cause]: [TopologyDescription]
+}
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+(node:20228) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 connected listeners added to [NativeConnection]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Connected to MongoDB
+Telegram notification sent successfully (attempt 1)
+
+C:\Users\Abpri\OneDrive\Documents\gRANT>  TCP    127.0.0.1:51187        127.0.0.1:3000         SYN_SENT        8164
+  TCP    127.0.0.1:51959        127.0.0.1:3000         SYN_SENT        8164
+  TCP    127.0.0.1:52318        127.0.0.1:3000         SYN_SENT        8164
+  TCP    [::1]:3000             [::1]:50643            TIME_WAIT       0
+  TCP    [::1]:3000             [::1]:50881            TIME_WAIT       0
+  TCP    [::1]:3000             [::1]:54237            TIME_WAIT       0
+  TCP    [::1]:3000             [::1]:57173            TIME_WAIT       0
+  TCP    [::1]:3000             [::1]:59945            TIME_WAIT       0
+  TCP    [::1]:49834            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:50332            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:50385            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:50426            [::1]:3000             SYN_SENT        8164
+  TCP    [::1]:50538            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:50837            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:50875            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:51138            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:51149            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:52464            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:52550            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:52839            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:53026            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:54581            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:54604            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:54679            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:54836            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:54910            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:55121            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:55389            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:56245            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:56946            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:57999            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:59707            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:60130            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:61142            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:61144            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:62092            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:63892            [::1]:3000             TIME_WAIT       0
+  TCP    [::1]:64762            [::1]:3000             TIME_WAIT       0
+
+C:\Users\Abpri\OneDrive\Documents\gRANT>
+> impact-grant-solutions@0.1.0 start
+> next start
+
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3000
+   - Network:      http://10.81.44.90:3000
+
+ ✓ Starting...
+ ✓ Ready in 1996ms
+Connected to MongoDB

@@ -1,0 +1,52 @@
+ ⚠ Linting is disabled.
+   ▲ Next.js 15.4.6
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 10.0s
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/23) ...
+   Generating static pages (5/23) 
+   Generating static pages (11/23) 
+   Generating static pages (17/23) 
+ ✓ Generating static pages (23/23)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    10.8 kB         124 kB
+├ ○ /_not-found                          1.03 kB         101 kB
+├ ○ /admin/applications                  2.93 kB         121 kB
+├ ○ /admin/settings                      2.39 kB         121 kB
+├ ƒ /api/admin/settings                    168 B         100 kB
+├ ƒ /api/admin/test-database               168 B         100 kB
+├ ƒ /api/admin/test-telegram               168 B         100 kB
+├ ƒ /api/applications                      168 B         100 kB
+├ ƒ /api/chat                              168 B         100 kB
+├ ƒ /api/chat/[id]                         168 B         100 kB
+├ ƒ /api/chat/[id]/delete                  168 B         100 kB
+├ ƒ /api/chat/[id]/status                  168 B         100 kB
+├ ƒ /api/chat/bulk-delete                  168 B         100 kB
+├ ƒ /api/chat/conversation                 168 B         100 kB
+├ ƒ /api/chat/conversation/[sessionId]     168 B         100 kB
+├ ƒ /api/chat/presence                     168 B         100 kB
+├ ƒ /api/chat/respond                      168 B         100 kB
+├ ƒ /api/chat/responses                    168 B         100 kB
+├ ƒ /api/chat/responses/[id]               168 B         100 kB
+├ ƒ /api/chat/retry-notifications          168 B         100 kB
+├ ƒ /api/chat/status                       168 B         100 kB
+├ ƒ /api/chat/user-responses               168 B         100 kB
+├ ƒ /api/test-db                           168 B         100 kB
+├ ○ /application                           26 kB         135 kB
+├ ○ /schedule                            3.58 kB         116 kB
+└ ○ /support                             19.4 kB         138 kB
++ First Load JS shared by all             100 kB
+  ├ chunks/4bd1b696-9344bf5691f6d832.js  54.2 kB
+  ├ chunks/964-d2db55e02b19c349.js       43.6 kB
+  └ other shared chunks (total)          2.26 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

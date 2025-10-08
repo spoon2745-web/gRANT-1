@@ -23,7 +23,7 @@ export default function AdminLogin() {
             if (loginSuccess) {
                 success('Login Successful', 'Welcome to the admin dashboard');
                 setPassword('');
-                router.push('/admin'); // Redirect to admin dashboard
+                router.push('/support'); // Redirect to admin dashboard
             }
             else {
                 error('Login Failed', 'Invalid password. Please try again.');

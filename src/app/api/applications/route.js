@@ -2,17 +2,19 @@ import { NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 import { connectToDatabase } from '@/lib/mongodb';
 import { Application } from '@/models/Application';
-// Environment variables for Telegram
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const TELEGRAM_CHAT_ID = process.env.TELEGRAM_SUPPORT_CHAT_ID;
+import { getSettings } from '@/lib/getSettings';
+
 async function sendTelegramNotification(applicationData) {
+    const settings = await getSettings();
+    const TELEGRAM_BOT_TOKEN = settings?.telegramBotToken;
+    const TELEGRAM_CHAT_ID = settings?.telegramSupportChatId;
+    const baseUrl = settings?.baseUrl || 'http://localhost:3000';
+
     if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID) {
         console.log('Telegram configuration missing, skipping notification');
         return;
     }
-    const baseUrl = process.env.NODE_ENV === 'production'
-        ? process.env.NEXTAUTH_URL || 'https://your-domain.com'
-        : 'http://localhost:3000';
+
     const message = `
 🆕 *NEW GRANT APPLICATION SUBMITTED*
 
@@ -35,7 +37,8 @@ ${applicationData.targetAudience.substring(0, 150)}${applicationData.targetAudie
 💡 *Expected Impact:*
 ${applicationData.expectedImpact.substring(0, 200)}${applicationData.expectedImpact.length > 200 ? '...' : ''}
 
-🆔 *Application ID:* \`${applicationData.applicationId}\`
+🆔 *Application ID:* 
+${applicationData.applicationId}
 🕐 *Submitted:* ${new Date().toLocaleString()}
 
 ---

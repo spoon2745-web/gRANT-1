@@ -2,9 +2,9 @@ import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 
 export const metadata = {
-  title: 'Impact Grant Solutions - Empowering Women Worldwide',
-  description: 'Access life-changing grants designed to empower women worldwide.',
-  keywords: 'grants, women empowerment, funding, applications',
+  title: 'Impact Grant Solutions - Empowering People Worldwide',
+  description: 'Access life-changing grants designed to empower people worldwide.',
+  keywords: 'grants, empowerment, funding, applications',
 }
 
 export default function RootLayout({ children }) {
